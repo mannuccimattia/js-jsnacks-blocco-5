@@ -6,3 +6,5 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+const string = people.map(person => `'${person.name}'`)
+console.log(string.join(", "));
