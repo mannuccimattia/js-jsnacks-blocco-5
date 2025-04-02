@@ -23,4 +23,4 @@ const students = [
 // Risultato: '3C'
 const student = students.find(stud => stud.name === "Marco Lanci");
 const studentClass = student.class;
-console.log(studentClass);
+console.log(`'${studentClass}'`);
